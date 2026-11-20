@@ -1,0 +1,1262 @@
+{
+  "meta": {
+    "name": "MAXIM SAFRUTIN | Graphite Blue Signature | Approved MS Monogram",
+    "version": "5.0.0",
+    "date": "2026-11-15",
+    "language": "ru",
+    "type": "universal personal brand design system",
+    "status": "approved brand specification; website implementation pending",
+    "owner": "Максим Сафрутин",
+    "website": "https://maxsafrutin.github.io/vizitka-/",
+    "notOfficialHAVALBrand": true,
+    "licenseNote": "Не выдавать личный бренд за официальный сайт, не применять логотип HAVAL без права использования",
+    "sourceOfTruth": "This JSON is the latest single source of truth, superseding V4 brand and logo guidance",
+    "basedOn": [
+      "MAXIM_SAFRUTIN_DESIGN_SYSTEM_V3.json",
+      "HAVAL_DARK_DESIGN_SYSTEM(1).json",
+      "Последняя заставка с серебристо-белой монограммой на графитово-синем диагональном фоне",
+      "Исходный загруженный знак IMG_0168(1).png",
+      "Визитки SGM contacts.html и TITAN-AUTO/managers/aleksandr-belyaev/",
+      "Утверждённый знак IMG_0168(1).png (основная форма)",
+      "Утверждённая металлическая заставка IMG_0170(1).png (премиальная материальная трактовка)"
+    ],
+    "notACloneOfHaval": true,
+    "explicitRule": "Оригинальная геометрия MS из IMG_0168(1).png неизменна; изображение IMG_0170(1).png служит эталоном объёмного исполнения. Не заменять форму похожим AI-знаком."
+  },
+  "strategy": {
+    "coreIdentity": "Личный автомобильный эксперт с главной ролью менеджера по продажам HAVAL; отдельная профессиональная идентичность и дополнительные проекты",
+    "primaryAudience": "Покупатели автомобилей HAVAL (примерно 90% получателей визитки, по сообщению владельца)",
+    "secondaryAudience": [
+      "коллеги",
+      "партнёры",
+      "работодатели",
+      "заказчики мероприятий"
+    ],
+    "positioning": "Технологично. Надёжно. Персонально.",
+    "tone": "Уверенный, профессиональный, понятный, без давления и ложных обещаний",
+    "priorityHierarchy": [
+      "личность и портрет",
+      "специализация HAVAL",
+      "телефон и мессенджеры",
+      "сохранить контакт / отправить",
+      "адрес и маршрут",
+      "Обо мне: резюме и другие проекты"
+    ],
+    "companySeparation": {
+      "currentRole": "Менеджер по продажам HAVAL",
+      "personalBrand": "MAXIM SAFRUTIN",
+      "disclaimer": "Личная визитка. Неофициальный сайт HAVAL.",
+      "prohibited": [
+        "представлять персональный сайт официальным сайтом HAVAL",
+        "указывать неподтверждённые полномочия официального дилера",
+        "переносить контакты бывших работодателей",
+        "рекламировать некорректные цены и наличие без подтверждения"
+      ]
+    },
+    "designManifesto": "Тихая компетентность. Точная геометрия. Глубокий графит. Сдержанное синее свечение. Личный знак в деталях, человек и контакты в центре.",
+    "firstScreenGoal": "Сразу понятно: Максим Сафрутин, менеджер по продажам HAVAL, связаться, сохранить контакт, открыть маршрут.",
+    "brandIndependence": "HAVAL указывается только как текущая профессиональная специализация. Личный знак, палитра, URL и дизайн остаются независимыми.",
+    "visualPersonality": "Самодостаточный специалист с персональным стилем: современный, спокойный, глубокий, компетентный; корпоративный контекст HAVAL только в должности и фактической информации.",
+    "avoid": [
+      "кислотный неон на всех блоках",
+      "богатый золотой",
+      "красный ТИТАН АВТО",
+      "официальные дилерские признаки без подтверждения",
+      "металлический градиент на основном тексте",
+      "случайные иконки автомобилей и семьи",
+      "плавающие CTA, мешающие контактам"
+    ]
+  },
+  "inspiration": {
+    "SGM": {
+      "preserve": [
+        "contactHero 96px avatar left, text right",
+        "contactSheet 12px gaps",
+        "compact card 620px",
+        "Jost-era micro animation style: riseFade, verifyShine",
+        "contactTopActions",
+        "contactMethod and contactQuick",
+        "contactAccordion and native contact save"
+      ],
+      "change": [
+        "colors",
+        "typography",
+        "photo and current data",
+        "links",
+        "preview metadata"
+      ]
+    },
+    "TITAN_AUTO": {
+      "preserve": [
+        "cards page information architecture",
+        "vCard download",
+        "share dialog with electronic and SMS modes",
+        "native OS sharing with clipboard fallback",
+        "materials/about and directions flows",
+        "modal navigation and accessibility"
+      ],
+      "change": [
+        "corporate names",
+        "old employer contacts",
+        "red palette",
+        "brand marks"
+      ]
+    },
+    "HAVAL_dark_attachment": {
+      "adopt": [
+        "dark automotive materiality",
+        "photo-first visual hierarchy",
+        "geometric typography",
+        "4px spacing scale",
+        "high contrast",
+        "accessible focus and motion reduction"
+      ],
+      "doNotCopy": [
+        "official HAVAL logo",
+        "corporate red",
+        "dealer site menus",
+        "automotive landing page hero carousel",
+        "corporate forms not needed on the contact card"
+      ]
+    },
+    "lastWallpaper": {
+      "source": "IMG_0170(1).png",
+      "role": "APPROVED RENDER REFERENCE",
+      "adopt": [
+        "тот же знак MS, что у первичного графического образца",
+        "матовое тёмно-графитовое поле с холодным сине-чёрным подтоном",
+        "диагональные металлические поверхности в верхнем левом и нижнем правом углах",
+        "сдержанные электрически-синие блики по кромкам",
+        "мягкий серебристый 3D-рельеф только у крупного знака"
+      ],
+      "adaptationRule": "Декоративные диагональные панели относятся к фону; в визитке их применение только за пределами контактной карточки. Эффект 3D использовать для больших носителей, не favicon."
+    },
+    "monogramOriginal": {
+      "source": "IMG_0168(1).png",
+      "status": "APPROVED PRIMARY MASTER",
+      "description": "Белая монограмма MS с замкнутым круглым характером и диагональными пересечениями на чёрном поле; это единый цельный графический знак",
+      "mustPreserve": [
+        "исходная геометрия и точные пропорции",
+        "положение и наклон диагональных штрихов",
+        "внутренние просветы",
+        "толщина и округлость окончаний",
+        "общий силуэт без добавления, удаления либо перестановки сегментов"
+      ],
+      "formats": [
+        "flat black/white",
+        "flat white on brand graphite",
+        "chrome-silver blue-lit 3D strictly from same shape"
+      ],
+      "notAllowed": [
+        "перерисовать по памяти",
+        "заменить другими буквами MS/МС",
+        "переместить/раздвинуть штрихи",
+        "добавить руль, колесо, микрофон, бабочку или дополнительные пиктограммы внутрь",
+        "использовать старый IMG_0168(1).png",
+        "использовать ранее сгенерированный monogram svg"
+      ],
+      "defaultUsage": "favicon, app touch icon, avatar and small brand signature; do not obscure photo or contact actions"
+    }
+  },
+  "tokens": {
+    "palette": {
+      "name": "Graphite Blue Signature / Approved Chrome MS",
+      "mode": "dark",
+      "colors": {
+        "canvas": "#080C12",
+        "card": "#101722",
+        "surface": "#151E2A",
+        "surfaceRaised": "#1B2735",
+        "navyDepth": "#172B43",
+        "borderSubtle": "#293548",
+        "borderStrong": "#41536D",
+        "textPrimary": "#F7F9FC",
+        "textSecondary": "#C4CFDD",
+        "textMuted": "#9EADBF",
+        "accent": "#3A85F7",
+        "accentHover": "#5497FC",
+        "accentPressed": "#2468D4",
+        "accentIce": "#8CCBFF",
+        "onAccent": "#07111F",
+        "success": "#63B99B",
+        "warning": "#E1B96D",
+        "danger": "#F07777",
+        "silverHigh": "#F4F7FC",
+        "silverMid": "#B9C7D7",
+        "silverLow": "#879AAF",
+        "blueGlow": "rgba(48,145,255,0.26)",
+        "surfaceDiagonal": "#1C293A"
+      },
+      "usage": {
+        "canvasPercent": "75-85",
+        "solidSurfacePercent": "10-20",
+        "electricBlueAreaMaxPercent": 5,
+        "blueGlowAreaMaxPercent": 3,
+        "whiteSilverForLogoOnly": true,
+        "goldGlobal": false,
+        "redGlobal": false,
+        "primaryTextNeverMetallic": true,
+        "shadeInBlack": true,
+        "silverAndChromeLogoOnly": true
+      },
+      "gradients": {
+        "pageAmbient": "radial-gradient(ellipse 65% 35% at 55% -12%,rgba(39,88,160,.17),transparent 75%)",
+        "edgeLight": "linear-gradient(115deg,transparent 5%,rgba(140,203,255,.09) 45%,rgba(58,133,247,.42) 50%,rgba(140,203,255,.05) 54%,transparent 90%)",
+        "metalForMonogramOnly": "linear-gradient(135deg,#FFFFFF 0%,#DDE7F3 46%,#95A8BC 74%,#F8FAFE 100%)",
+        "buttonPrimary": "linear-gradient(180deg,#448FF8 0%,#2E70DB 100%)",
+        "photoDarkening": "linear-gradient(180deg,rgba(8,12,18,0) 15%,rgba(8,12,18,.76) 100%)",
+        "backgroundPanels": "linear-gradient(142deg,#0A1018 0%,#152133 39%,#0C131D 42%,#111B29 60%,#080C12 100%)"
+      },
+      "material": {
+        "base": "matte graphite / brushed gunmetal impression",
+        "grainOpacityMax": 0.025,
+        "bevel": "one hairline on edges only",
+        "blueLight": "1-2 diagonal luminous lines on outside background, opacity restrained on web UI; direct wallpaper renders may be brighter.",
+        "backgroundTexture": "CSS gradients and optional generated raster ornament, no animation on large images",
+        "diagonalLines": {
+          "angleDegrees": [
+            35,
+            42,
+            145
+          ],
+          "maxVisibleOnCard": 2,
+          "thicknessPx": [
+            1,
+            2
+          ],
+          "contrast": "very low, not under reading text"
+        },
+        "shadows": {
+          "card": "0 18px 56px rgba(0,0,0,.38)",
+          "dialog": "0 28px 80px rgba(0,0,0,.66)",
+          "logo": "0 0 25px rgba(58,133,247,.08)"
+        },
+        "logoTreatment": "Approved large-screen rendering: silver chrome, subtle bevel, low blue rimlight and grounding shadow; no uncontrolled bloom."
+      }
+    },
+    "typography": {
+      "primary": "Manrope, Inter, system-ui, sans-serif",
+      "alternative": "Jost, Arial, sans-serif",
+      "display": "Manrope, Inter, system-ui, sans-serif",
+      "weights": [
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "headings": {
+        "case": "sentence case",
+        "trackingEm": -0.025
+      },
+      "micro": {
+        "case": "uppercase for roles/eyebrows only",
+        "letterSpacingEm": 0.025
+      },
+      "sizesWebPx": {
+        "nameDesktop": 24,
+        "nameMobile": 21,
+        "nameCompact": 19,
+        "roleDesktop": 11,
+        "roleMobile": 10,
+        "contactNumber": 15,
+        "body": 14,
+        "button": 13,
+        "micro": 11,
+        "cardSectionTitle": 15
+      },
+      "lineHeight": {
+        "body": 1.5,
+        "compact": 1.2
+      },
+      "digitalNumbers": "tabular-nums",
+      "social": {
+        "heroHeadlineMinPx": 48,
+        "heroHeadlineMaxPx": 112,
+        "maxLines": 2,
+        "contrast": "textPrimary on dark overlay"
+      },
+      "brandWordmark": "Manrope 700-800, no tracking above .05em",
+      "typeRule": "Печатный текст без свечения и металлических градиентов. Максимум 2 акцентных начертания на одном экране."
+    },
+    "geometry": {
+      "baseUnitPx": 4,
+      "spacingPx": [
+        4,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        24,
+        32,
+        40,
+        48,
+        64
+      ],
+      "bordersPx": {
+        "hairline": 1,
+        "accentLine": 2
+      },
+      "radiusPx": {
+        "photoDesktop": 18,
+        "photoMobile": 16,
+        "contact": 16,
+        "button": 14,
+        "card": 20,
+        "dialog": 20,
+        "pill": 999
+      },
+      "webCard": {
+        "maxWidthPx": 620,
+        "pagePaddingPx": 16,
+        "innerPaddingPx": 20,
+        "mobileInnerPaddingPx": 18,
+        "sectionGapPx": 12,
+        "hero": {
+          "layout": "grid avatar left / details right",
+          "avatarPx": 96,
+          "avatarMobilePx": 86,
+          "gapPx": 12
+        },
+        "primaryButtons": {
+          "columnsDesktop": "1.25fr 1fr",
+          "columnsMobile": 1,
+          "gapPx": 8,
+          "minHeightPx": 44
+        },
+        "contact": {
+          "layout": "phone/details left, icons right",
+          "iconBoxPx": 40,
+          "iconImagePx": 29,
+          "gapPx": 8
+        },
+        "accordion": {
+          "minHeightPx": 48,
+          "paddingPx": [
+            14,
+            16
+          ]
+        },
+        "modal": {
+          "maxWidthPx": 440,
+          "mobileViewportGutterPx": 12
+        }
+      },
+      "safeZone": {
+        "socialPercent": 8,
+        "avatarPercent": 10
+      },
+      "preserveOriginalMetrics": true,
+      "doNotChangeFromSGMAndTitan": [
+        "card max-width and grid structure",
+        "avatar shape and 96/86px sizes",
+        "button 14px radius",
+        "card 20px radius",
+        "contact row 16px radius",
+        "contactSheet gap 12px",
+        "modal flow and existing click targets"
+      ],
+      "decorativePolicy": {
+        "outerCardFrame": "solid border 1px with optional 2px blue highlight on top-left",
+        "accentHairlinePx": 1,
+        "glowNotOnText": true,
+        "logoSpace": "favicon first and small footer mark only"
+      }
+    },
+    "motion": {
+      "prioritySource": "SGM",
+      "ease": "cubic-bezier(.2,.8,.2,1)",
+      "entrance": {
+        "name": "riseFade",
+        "durationMs": 420,
+        "from": {
+          "opacity": 0,
+          "translateYPx": 10
+        },
+        "to": {
+          "opacity": 1,
+          "translateYPx": 0
+        },
+        "delayMs": 0
+      },
+      "ctaSheen": {
+        "name": "verifyShine",
+        "durationMs": 3600,
+        "loop": true,
+        "onlyFor": [
+          "modalAction--accent:not(.modalAction--no-shine)"
+        ],
+        "respectNoShine": true,
+        "enableFor": "main share CTA only",
+        "preserveSGMTiming": true,
+        "maxSimultaneous": 1,
+        "pauseWhenReducedMotion": true
+      },
+      "dialog": {
+        "durationMs": 230,
+        "translateYPx": 8,
+        "scaleFrom": 0.99
+      },
+      "hover": {
+        "durationMs": 160,
+        "translateYPx": -1
+      },
+      "accordionChevron": {
+        "durationMs": 250,
+        "rotateOpenDeg": 180
+      },
+      "photoHover": {
+        "durationMs": 250,
+        "filterBrightness": 1.045
+      },
+      "reducedMotion": "disable all nonessential animations and transitions",
+      "note": "SVG mark remains static. Motion from original SGM has precedence over decorative HAVAL effects.",
+      "backgroundLines": {
+        "animation": false,
+        "reason": "avoid distraction, GPU drain, flashing"
+      }
+    },
+    "iconography": {
+      "contactBrands": "use original branded SVG assets when licensed and available",
+      "system": "geometric outline",
+      "strokePx": 1.8,
+      "iconSizePx": [
+        18,
+        19,
+        24,
+        29
+      ],
+      "touchTargetMinPx": 44,
+      "noEmojisForPremiumUI": true,
+      "brandMark": "use exact user-provided monogram",
+      "contactIcons": "reuse original SVG from SGM/TITAN where permitted, do not approximate MAX logo with text",
+      "position": "preserve original contactQuick layout",
+      "faviconFormat": [
+        "svg",
+        "png",
+        "ico optional"
+      ],
+      "iconOnButton": "left aligned like original source"
+    },
+    "accessibility": {
+      "contrast": "WCAG AA target 4.5:1 normal text",
+      "buttonMinHeightPx": 44,
+      "focusRingPx": 2,
+      "ariaLabels": true,
+      "keyboardEscape": true,
+      "reducedMotion": true,
+      "altText": true
+    },
+    "responsive": {
+      "mobileFirst": true,
+      "breakpointsPx": {
+        "compact": 360,
+        "phone": 420,
+        "tablet": 560,
+        "desktop": 768
+      },
+      "desktopCardMaxPx": 620,
+      "compactIconRowBelowPhoneAtPx": 420,
+      "fullWidthActionsAtPx": 560
+    }
+  },
+  "components": {
+    "digitalBusinessCard": {
+      "contract": "Retain SGM/TITAN geometry and class names, recolor by tokens, no new structure",
+      "classes": [
+        "wrap--contactsPage",
+        "card--contactsPage",
+        "card__body",
+        "contactSheet",
+        "contactHero",
+        "contactAvatar",
+        "contactHero__content",
+        "contactName",
+        "contactRole",
+        "contactTopActions",
+        "modalAction",
+        "contactMethod",
+        "contactQuick",
+        "contactAccordion",
+        "modalActions"
+      ],
+      "visualPriority": [
+        "portrait and name",
+        "role HAVAL",
+        "save contact / share",
+        "mobile phone & icons",
+        "additional contacts",
+        "about-me and navigation"
+      ],
+      "visualContract": "Original SGM/TITAN layout is immutable except tokens and content; do not create landing page hero or change name/photo placement.",
+      "backgroundDecoration": "Subtle diagonal panel only in exterior page backdrop. Card interior remains solid and readable.",
+      "brandMarkPlacement": "Primary use: favicon and iOS home-screen icon. Optional 18-22px monochrome brand mark in footer; do not add a huge logo over the name. Avatar remains the real portrait."
+    },
+    "button": {
+      "primary": {
+        "class": "modalAction modalAction--shareAction",
+        "heightPx": 44,
+        "radiusPx": 14,
+        "background": "accent gradient",
+        "color": "#FFFFFF",
+        "sheen": "SGM verifyShine, 3.6s only when enabled",
+        "hover": "original 1px lift / blue border"
+      },
+      "secondary": {
+        "class": "modalAction modalAction--accent",
+        "heightPx": 44,
+        "radiusPx": 14,
+        "background": "deep blue translucent",
+        "color": "textPrimary"
+      },
+      "neutral": {
+        "class": "modalAction",
+        "background": "surface raised, no gradient",
+        "border": "borderSubtle"
+      },
+      "icon": "19px monochrome SVG, 29px original app icons",
+      "focus": "2px visible ice blue ring",
+      "touch": "min 44px"
+    },
+    "dialog": {
+      "nativeHtml": "dialog",
+      "closeBy": [
+        "visible close",
+        "Escape",
+        "backdrop"
+      ],
+      "shareModes": [
+        "electronic",
+        "SMS without link"
+      ],
+      "nativeShare": "navigator.share with text and URL",
+      "fallback": "clipboard with visible notification",
+      "decor": "single subtle blue top hairline; no wallpaper background",
+      "maxWidthPx": 440,
+      "background": "surface",
+      "scrollLock": true,
+      "focusTrap": true,
+      "restoreFocus": true,
+      "backdrop": "rgba(4,8,14,.78)",
+      "copyState": "toast with visible status; no false delivered notification",
+      "shareTextPolicy": "Include phone and link in electronic share, SMS has no URL."
+    },
+    "contactVcard": {
+      "format": "VCF 3.0",
+      "fields": [
+        "name",
+        "personal phone",
+        "personal email",
+        "current role",
+        "personal website"
+      ],
+      "noStaleCorporateInfo": true
+    },
+    "accordion": {
+      "native": true,
+      "progressiveDisclosure": true,
+      "look": "original SGM compact disclosure, 1px separator",
+      "extraContacts": [
+        "personal email",
+        "VK"
+      ],
+      "secondaryProjects": "nested via About me, not in first-screen contact rows"
+    },
+    "media": {
+      "picture": "real portrait, no change of identifiable facial geometry",
+      "video": "clean cinematic minimal motion"
+    },
+    "favicon": {
+      "canonicalArtwork": "IMG_0168(1).png",
+      "artworkTreatment": "exact existing MS silhouette, solid white; use crop+alpha and source-derived raster icon; vector tracing only if contour validated against source",
+      "background": "#080C12",
+      "paddingPercent": 12,
+      "sizesPx": [
+        16,
+        32,
+        48,
+        180,
+        192,
+        512
+      ],
+      "default": "flat original monogram, no 3D, no glowing lines",
+      "svgRule": "do not draw a new approximate glyph. Generate an SVG only from faithful tracing of approved bitmap or embed authoritative image where permitted",
+      "appleTouchIcon": "opaque square dark background with centered original white mark",
+      "never": "Do not substitute chrome wallpaper as tiny favicon."
+    },
+    "socialPreview": {
+      "imageSizePx": [
+        1200,
+        630
+      ],
+      "background": "graphite navy",
+      "photo": "portrait left or right depending on crop",
+      "logo": "Optional small approved MS glyph; portrait and name remain dominant",
+      "name": "large plain Manrope",
+      "role": "Менеджер по продажам HAVAL",
+      "details": "контакты, мессенджеры, маршрут",
+      "noFakeHavalLogos": true,
+      "absoluteUrl": "https://maxsafrutin.github.io/vizitka-/assets/share-preview.jpg",
+      "metadata": [
+        "og:type",
+        "og:locale",
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:image:width",
+        "og:image:height",
+        "og:url",
+        "og:site_name",
+        "twitter:card"
+      ],
+      "test": "validate external social crawlers after deploying"
+    },
+    "pageBackground": {
+      "style": "reference latest iPhone wallpaper but stripped down",
+      "layers": [
+        "matte canvas",
+        "radial navy ambient at top",
+        "one clipped diagonal graphite panel at page edge",
+        "thin electric-blue edge light, not at text",
+        "mild grain under .025 opacity"
+      ],
+      "safeReading": "Never place active diagonal graphic under text, QR, address or share dialog",
+      "animation": false
+    },
+    "hero": {
+      "layout": "avatar at left 96px / name-role right, original",
+      "logo": "No oversized monogram or replacement of portrait. Brand signal is in favicon and optional discreet footer mark.",
+      "role": "Менеджер по продажам HAVAL",
+      "corporateAssociation": "label/text only, not official corporate masthead",
+      "avoid": "personal biography above contacts, decorative slogans, excessive effects"
+    },
+    "routes": {
+      "address": "Самара, Московское шоссе, 24-й километр, 42с1",
+      "coordinates": [
+        53.320112,
+        50.295854
+      ],
+      "providers": [
+        "Яндекс Карты",
+        "2ГИС"
+      ],
+      "methods": "destination deep links with verified URL structure; do not claim confirmed travel time",
+      "locationCard": "same compact modalAction geometry"
+    }
+  },
+  "templates": {
+    "webCard": {
+      "widthPx": 620,
+      "photoPx": 96,
+      "requiredActions": [
+        "save contact.vcf",
+        "share Telegram/MAX/other",
+        "call",
+        "open Telegram",
+        "open MAX",
+        "open email",
+        "open about",
+        "open directions"
+      ],
+      "linkPreview": {
+        "sizePx": [
+          1200,
+          630
+        ],
+        "image": "assets/share-preview.jpg",
+        "meta": [
+          "og:title",
+          "og:description",
+          "og:image",
+          "twitter:card"
+        ],
+        "siteName": "Максим Сафрутин | Личная визитка"
+      },
+      "informationLayers": {
+        "public": "HAVAL + personal contact",
+        "about": "CV, events calculator, project links"
+      },
+      "referenceLayout": "SGM/TITAN original",
+      "hero": "portrait not logo, name and current role",
+      "designV4": "Graphite Blue Signature, monogram as favicon and subtle secondary emblem",
+      "background": "restrained diagonal graphite, electric blue accent edge outside content",
+      "avoid": [
+        "website-like hero carousel",
+        "3D logo larger than headshot",
+        "rearranged button grid",
+        "large decorative text and icon collections"
+      ],
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "storyVertical": {
+      "sizePx": [
+        1080,
+        1920
+      ],
+      "background": "canvas",
+      "photoZonePercent": [
+        0,
+        70
+      ],
+      "darkOverlay": "rgba(11,14,19,0.30-0.72)",
+      "safeMarginPx": 72,
+      "topEyebrow": "MAXIM / SAFRUTIN",
+      "headlineMaxLines": 3,
+      "textPlacement": "lower third unless photo dictates otherwise",
+      "accentLinePx": 4,
+      "cta": "one short action near lower edge",
+      "variants": [
+        "автомобиль HAVAL",
+        "консультация и контакт",
+        "личные результаты",
+        "праздничное объявление",
+        "продано",
+        "забронировано"
+      ],
+      "maxAccentAreaPercent": 7,
+      "footer": "personal contact; no employer promises",
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "storyHorizontal": {
+      "sizePx": [
+        1920,
+        1080
+      ],
+      "use": "TV / YouTube banners / horizontal announcements",
+      "imageAreaPercent": 65,
+      "textAlign": "left",
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "avatar": {
+      "masterSizePx": [
+        2048,
+        2048
+      ],
+      "minimumSizePx": [
+        512,
+        512
+      ],
+      "crop": "head-and-shoulders in centered circle-safe region",
+      "faceSafeDiameterPercent": 62,
+      "background": "graphite-blue portrait background",
+      "treatment": "subtle exposure, no facial substitution",
+      "mark": "optional small MS monogram; never overlay face",
+      "variants": [
+        "photo",
+        "monogram",
+        "photo with thin blue rim"
+      ],
+      "v4Treatment": {
+        "photoFirst": "preferred for professional social accounts",
+        "markOnly": "approved for channel/logo avatar",
+        "shape": "flat white original monogram, centered with transparent safe margin over matte graphite",
+        "noGlowAtSmallSizes": true
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "socialPostSquare": {
+      "sizePx": [
+        1080,
+        1080
+      ],
+      "grid": "12-column conceptual",
+      "marginPx": 80,
+      "headlineMaxLines": 3,
+      "bodyMaxLines": 5,
+      "accentColor": "accent",
+      "signature": "MAXIM SAFRUTIN",
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "socialPostPortrait": {
+      "sizePx": [
+        1080,
+        1350
+      ],
+      "marginPx": 76,
+      "media": "portrait or car real photo",
+      "textCard": "solid card only",
+      "cta": "optional",
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "rutubeCover": {
+      "sizePx": [
+        2204,
+        826
+      ],
+      "media": "automotive real photography",
+      "titleAnchor": "left quarter",
+      "portraitRight": true,
+      "safeArea": "keep text away from all edges; verify channel crop on desktop/mobile",
+      "subtitle": "Автомобили / обзоры / личный опыт",
+      "noFakeDealerLogo": true,
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "videoThumbnail": {
+      "sizePx": [
+        1280,
+        720
+      ],
+      "primaryPhoto": "real person or vehicle",
+      "headlineMaxWords": 6,
+      "emphasis": "one blue accent keyword",
+      "faceRetouch": "minimal realistic",
+      "textContrast": "high",
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "telegramChannelAvatar": {
+      "sizePx": [
+        1024,
+        1024
+      ],
+      "crop": "circular-safe 72%",
+      "options": [
+        "personal portrait",
+        "MS monogram"
+      ],
+      "tinyTextProhibited": true,
+      "v4Treatment": {
+        "monogram": "original single white monogram on graphite",
+        "keepInCircularSafeZonePercent": 72,
+        "visualRules": "no inscriptions, no miniature lines, optionally one subtle blue segment"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "telegramChannelCover": {
+      "sizePx": [
+        1280,
+        720
+      ],
+      "style": "graphite + clean photo + one blue line",
+      "branding": "MAXIM SAFRUTIN",
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "maxChannelCover": {
+      "sizePx": [
+        1280,
+        720
+      ],
+      "platformCheck": "verify actual crop and resizing",
+      "sameTokenSystem": true,
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "pdfOrProposal": {
+      "format": "A4",
+      "pageMarginMm": 18,
+      "headingFont": "Manrope",
+      "bodyFont": "Manrope",
+      "cover": "graphite hero / blue thin line",
+      "tables": "dark header + light reading surface if printing",
+      "paperPrintVariant": "white background with blue links",
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "businessCardPrint": {
+      "sizeMm": [
+        90,
+        50
+      ],
+      "bleedMm": 3,
+      "qr": "personal website URL",
+      "front": "name, role HAVAL, phone",
+      "back": "QR and personal website, disclaimer small",
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "whatsappTelegramMaxShare": {
+      "previewTitle": "Максим Сафрутин | HAVAL • Самара",
+      "previewDescription": "Менеджер по продажам HAVAL. Контакты, мессенджеры, адрес и маршрут.",
+      "fallback": "plain text with canonical URL",
+      "sms": "no URL to reduce friction",
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "eventServicesCard": {
+      "priority": "personal identity, not HAVAL",
+      "copy": "Ведущий · DJ · организация мероприятий",
+      "projects": "link to prazdnik calculator",
+      "useSameColors": true,
+      "v4Treatment": {
+        "palette": "Graphite Blue Signature",
+        "decor": "only 1-2 subtle diagonal panel edges from wallpaper",
+        "blueGlow": "only on a separator, border or key feature; less than 5% canvas",
+        "mark": "original white monogram in one small stable location, or omit if brand name is already prominent",
+        "typography": "Manrope, bright text, no metallic lettering",
+        "priority": "subject first, logo secondary",
+        "noExcess": "no collage of profession icons, no HUD panels, no decorative badges"
+      },
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    },
+    "iphoneWallpaper": {
+      "sizePx": [
+        1170,
+        2532
+      ],
+      "sourceImage": "a_sleek_high_contrast_premium_tech_wallpaper_a.png",
+      "centerpiece": "original user-submitted IMG_0168(1).png monogram",
+      "noCaptions": true,
+      "noAutoOrFamilyIcons": true,
+      "clockSafeZoneTopPercent": 33,
+      "bottomSafeZonePercent": 14,
+      "mainLogoVerticalCenterPercent": 50,
+      "design": "diagonal graphite panels and blue edge light",
+      "note": "Decorative wallpaper may be more dimensional than web card; do not apply 3D metal treatment to UI text.",
+      "approvedLogoRule": "Where logo is used, use exact MS from IMG_0168(1).png; chrome finish follows IMG_0170(1).png only at suitable size."
+    }
+  },
+  "content": {
+    "name": "Максим Сафрутин",
+    "role": "Менеджер по продажам HAVAL",
+    "location": "Самара, Московское шоссе, 24-й километр, 42с1",
+    "coordinates": {
+      "lat": 53.320112,
+      "lon": 50.295854
+    },
+    "phone": "+7 (927) 265-17-77",
+    "email": "max.safrutin@gmail.com",
+    "telegram": "https://t.me/max_safrutin",
+    "max": "https://max.ru/u/f9LHodD0cOKKZU5YzAy-jy-s9GFJHXWaHHYEv7Bq4vrV8HM_H0nirqXVKRE",
+    "vk": "https://vk.com/max_safrutin",
+    "resume": "https://maxsafrutin.github.io/resume-safrutin/",
+    "eventCalculator": "https://maxsafrutin.github.io/prazdnik/",
+    "headline": "Максим Сафрутин",
+    "subheadline": "Менеджер по продажам HAVAL",
+    "about": "Продажи автомобилей, профессиональные коммуникации, цифровые инструменты и проведение мероприятий.",
+    "shareElectronic": "Здравствуйте! Это Максим Сафрутин, менеджер по продажам HAVAL.\n\nОставляю свою визитку с контактами, мессенджерами и адресом автосалона. Буду рад помочь с выбором автомобиля HAVAL!\n\nhttps://maxsafrutin.github.io/vizitka-/",
+    "shareSms": "Здравствуйте! Это Максим Сафрутин, менеджер по продажам HAVAL. Мой номер для связи: +7 (927) 265-17-77. Буду рад помочь с выбором автомобиля HAVAL!",
+    "avoid": [
+      "лучшие цены без подтверждения",
+      "гарантированное одобрение кредита",
+      "официальный представитель без подтверждения",
+      "излишний нажим",
+      "рекламные клише"
+    ],
+    "branding": {
+      "displayName": "Максим Сафрутин",
+      "role": "Менеджер по продажам HAVAL",
+      "signature": "Личная визитка",
+      "favicon": "original user-supplied monogram",
+      "siteDisclosure": "Личная визитка, не официальный сайт HAVAL"
+    },
+    "microcopy": {
+      "save": "Сохранить в контакты",
+      "share": "Поделиться",
+      "moreContacts": "Ещё контакты",
+      "about": "Обо мне и мои проекты",
+      "directions": "Как добраться",
+      "phoneLabel": "Мобильный",
+      "resumeLabel": "Профессиональное резюме",
+      "eventsLabel": "Ведущий и DJ, калькулятор услуг",
+      "noPushyClaims": true
+    }
+  },
+  "photoPolicy": {
+    "preserveSource": true,
+    "preserveCarIdentity": true,
+    "preserveFacialIdentity": true,
+    "disallow": [
+      "подмена руля, эмблем и конструктивных деталей",
+      "несуществующие опции",
+      "исчезновение ветровиков",
+      "неестественная ретушь",
+      "создание ложного состояния автомобиля"
+    ],
+    "allowed": [
+      "умеренная экспозиция и баланс белого",
+      "небольшая резкость",
+      "минимальная цветокоррекция"
+    ],
+    "important": "Для объявления о продаже не маскировать повреждения и дефекты"
+  },
+  "implementation": {
+    "type": "Design system blueprint, not deployed HTML or executable code",
+    "jsonFormat": "UTF-8, 2-space indent",
+    "priorityOrder": [
+      "do not change source component geometry and functionality",
+      "original user monogram",
+      "readability and direct contact CTAs",
+      "brand blue accent",
+      "decorative wallpaper echoes"
+    ],
+    "cssVariables": {
+      "--ms-canvas": "#080C12",
+      "--ms-card": "#101722",
+      "--ms-surface": "#151E2A",
+      "--ms-surface-raised": "#1B2735",
+      "--ms-accent": "#3A85F7",
+      "--ms-accent-hover": "#5497FC",
+      "--ms-ice": "#8CCBFF",
+      "--ms-text": "#F7F9FC",
+      "--ms-muted": "#9EADBF",
+      "--ms-border": "#293548",
+      "--ms-radius-card": "20px",
+      "--ms-radius-button": "14px",
+      "--ms-font": "Manrope, Inter, system-ui, sans-serif"
+    },
+    "fileMapping": {
+      "index.html": "content, correct meta tags, source class structure",
+      "assets/style.css": "source CSS plus tokens overrides, avoid rewriting original layout",
+      "assets/app.js": "TITAN share modes, SGM animation states, clipboard fallback",
+      "assets/brand/monogram.svg": "trace supplied monogram, preserve outline",
+      "assets/brand/apple-touch-icon.png": "flat white monogram on matte graphite",
+      "contact.vcf": "current personal contacts only",
+      "assets/share-preview.jpg": "preview with portrait and role",
+      "DESIGN_SYSTEM.json": "copy of this file"
+    },
+    "noBreakRules": [
+      "Do not paste entire 1170x2532 wallpaper as website background",
+      "Do not use original dark-square image directly for favicon without transparent crop",
+      "Do not force blue glow on all controls",
+      "No old SGM or TITAN contacts",
+      "No unsupported company promises"
+    ],
+    "qaChecklist": [
+      "Preview on iPhone 12 Pro 390 CSS px wide",
+      "Menu labels do not wrap incorrectly",
+      "Avatar remains at left and photo recognizable",
+      "Tap areas 44px+",
+      "vCard opens from iPhone Contacts",
+      "Share sheet sends correct URL and copy",
+      "SMS body has no URL",
+      "2GIS and Yandex routes work",
+      "OG screenshot preview crawlers can see image",
+      "Mobile Safari modal scroll locks and restores focus",
+      "Reduced motion disables shine",
+      "Contrast WCAG AA",
+      "Favicon 16/32px renders original shape",
+      "Original source asset licensing checked",
+      "Personal site clearly not official HAVAL"
+    ],
+    "deploymentStatus": "JSON only. No GitHub changes or website deployment in this deliverable."
+  },
+  "assets": {
+    "sources": {
+      "personalLogo": "IMG_0168(1).png",
+      "inspirationWallpaper": "a_sleek_high_contrast_premium_tech_wallpaper_a.png",
+      "portrait": "ChatGPT Image 12 мар. 2026 г., 10_17_25.png",
+      "originalSGMIcons": "SGM/assets/site/*.svg",
+      "personalLogoPremiumReference": "IMG_0170(1).png",
+      "oldLogoRetired": "IMG_0159.png"
+    },
+    "newWebsitePaths": {
+      "faviconSvg": "assets/brand/monogram.svg",
+      "appleTouchPng": "assets/brand/apple-touch-icon.png",
+      "socialPreview": "assets/share-preview.jpg",
+      "portraitWebp": "assets/portrait.webp",
+      "originalLogoPng": "assets/brand/monogram-source.png",
+      "approvedLogoSource": "assets/brand/ms-approved-master.png",
+      "flatLogoTransparent": "assets/brand/ms-white-transparent.png",
+      "premiumLogoReference": "assets/brand/ms-premium-reference.png"
+    },
+    "assetConversionRules": [
+      "Import and preserve IMG_0168(1).png as approved original; export transparency by removing black background without reshaping the white glyph",
+      "Do not generate a new approximation of MS using text, Bezier reinterpretation or another icon",
+      "Use IMG_0170(1).png for premium-material direction of wallpapers and cover art; same exact MS form must be maintained",
+      "For small/favicon sizes use flat white mark on dark background; never metallic highlights that destroy legibility",
+      "Logo safe area >= 12% of square extent; do not distort or rotate; retain aspect ratio",
+      "Avoid the use of HAVAL and TITAN AUTO company marks as personal logo",
+      "Keep portrait as main business card hero image, logo only favicon and optional small footer"
+    ]
+  },
+  "brandLogo": {
+    "name": "MS | Максим Сафрутин",
+    "identityRole": "permanent personal mark, independent of employer",
+    "approval": {
+      "primarySource": "IMG_0168(1).png",
+      "premiumStyleSource": "IMG_0170(1).png",
+      "approvedDate": "2026-11-15",
+      "geometryLocked": true,
+      "sourceHierarchy": [
+        "IMG_0168(1).png : authoritative geometry",
+        "IMG_0170(1).png : reference for finish and scene, not geometry",
+        "JSON V5 : usage and brand rules"
+      ]
+    },
+    "masterGeometry": {
+      "method": "use original artwork as immutable mask",
+      "reconstructionAllowed": false,
+      "preserve": [
+        "silhouette",
+        "counterforms",
+        "stroke width",
+        "edge rounding",
+        "terminal shapes",
+        "all relative proportions",
+        "negative space"
+      ],
+      "forbidden": [
+        "redrawing from textual letter description",
+        "adding/removing details",
+        "3D modification affecting silhouette",
+        "stretching",
+        "mirroring",
+        "changing alignment or cutting parts"
+      ]
+    },
+    "officialVariants": {
+      "masterMono": {
+        "reference": "IMG_0168(1).png",
+        "foreground": "#FFFFFF",
+        "background": "#000000",
+        "finish": "flat high-contrast",
+        "application": [
+          "master archive",
+          "monochrome print",
+          "favicon source",
+          "logos on dark background"
+        ]
+      },
+      "brandFlat": {
+        "reference": "IMG_0168(1).png",
+        "foreground": "#F7F9FC",
+        "background": "#080C12",
+        "finish": "flat, no gradients",
+        "application": [
+          "favicon",
+          "apple-touch-icon",
+          "small footer mark",
+          "simple channel avatar"
+        ]
+      },
+      "signatureChrome": {
+        "reference": "IMG_0170(1).png",
+        "colors": [
+          "#F7F9FC",
+          "#B9C7D7",
+          "#879AAF",
+          "#3A85F7",
+          "#8CCBFF"
+        ],
+        "finish": "shallow brushed chrome/silver volume, blue rim light, restrained bevel and soft shadow",
+        "application": [
+          "lock screen wallpaper",
+          "channel covers",
+          "cinematic intros",
+          "large personal-brand splash screens"
+        ],
+        "minimumRecommendedDisplayPx": 200
+      }
+    },
+    "placement": {
+      "website": "favicon + apple touch mandatory; tiny footer optional; no big logo in contact hero",
+      "wallpaper": "centered, 50-60% image width, with clear top safe area for iPhone lock-screen clock",
+      "socialAvatars": "large centered flat glyph, minimum 12% outside safe zone",
+      "story": "small brand signature 8-12% width unless story is specifically personal brand announcement",
+      "rutubeCover": "premium mark near optical center away from mobile crop boundaries"
+    },
+    "qa": [
+      "Check canonical outline matches IMG_0168 without edits",
+      "Match the same glyph in silver variant, not a new stylized drawing",
+      "Check favicon visual clarity at 16x16",
+      "Verify dark background contrast",
+      "Do not accidentally use old version of the logo in builds"
+    ]
+  },
+  "releaseNotesV5": {
+    "summary": "Fixes the personal brand identity to the newest user-approved MS mark, preserving all V4 layout, animations and content behavior",
+    "changed": [
+      "Approved image IMG_0168(1).png supersedes the IMG_0159 monogram",
+      "IMG_0170(1).png becomes final premium wallpaper / 3D rendering reference",
+      "Add two mandatory visual renditions: flat monochrome and chrome-blue premium",
+      "Lock exact geometry and negative spaces, ban re-generation of similarly looking signs",
+      "Specify usage from 16px favicon to large wall art and cover graphics",
+      "Reinforce personal independence from official HAVAL corporate branding"
+    ],
+    "notChanged": [
+      "SGM / TITAN AUTO contact card dimensions, forms, gaps, interaction hierarchy",
+      "SGM-style entrance and light sweep animations",
+      "Graphite Blue palette, Manrope/Inter typography",
+      "Current HAVAL sales role and Samara address",
+      "Contact/Share/VCF/SMS/dialog and project links"
+    ]
+  }
+}
